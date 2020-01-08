@@ -105,19 +105,22 @@ end
 
 def play
     while over? == false
-    	turn
+      turn
     end
 
     if draw?
-    	puts "Cat's Game!"
+      puts "Cat's Game!"
     elsif winner == "X"
-    	puts "Congratulations X!"
+      puts "Congratulations X!"
     elsif winner == "O"
-    	puts "Congratulations O!"
+      puts "Congratulations O!"
     end
-end
-
-
-
-
+  end
+  def over?
+    if won? || draw? == true
+      return true
+    else
+      return false
+    end
+  end
 end
