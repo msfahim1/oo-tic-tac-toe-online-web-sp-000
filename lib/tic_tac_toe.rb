@@ -115,7 +115,11 @@ def play
     elsif winner == "O"
     	puts "Congratulations O!"
     end
+<<<<<<< HEAD
 end
+=======
+
+>>>>>>> 9031a610bec45e756d42a031a5a823d75ffe1a16
 
 
 
